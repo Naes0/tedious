@@ -6,7 +6,7 @@ npm-debug.log
 README.html
 generated
 /scratch
-
+/lib
 test/unit/perf-buffer.coffee
 
 src-coffee/
