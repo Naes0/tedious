@@ -42,6 +42,7 @@ const DEFAULT_PORT = 1433;
 const DEFAULT_TDS_VERSION = '7_4';
 const DEFAULT_LANGUAGE = 'us_english';
 const DEFAULT_DATEFORMAT = 'mdy';
+const DEFAULT_MAX_RETRIES_ON_TRANSIENT_ERRORS = 3;
 
 function deprecateNonBooleanConfigValue(optionName, value) {
   if (typeof value !== 'boolean') {
